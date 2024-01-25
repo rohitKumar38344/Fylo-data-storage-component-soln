@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main>
+      <div class="fylo">
+        <div class="fylo-feature-container">
+          <div class="fylo-upper">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="fylo-features">
+            <img src="images/icon-document.svg" alt="document-icon" />
+            <img src="images/icon-folder.svg" alt="folder-icon" />
+            <img src="images/icon-upload.svg" alt="upload-icon" />
+          </div>
+        </div>
+        <div class="fylo-storage">
+          <p>
+            You’ve used <strong class="storage">815 GB</strong> of your storage
+          </p>
+          <div class="storage-bar">
+            <progress max="100" value="80"></progress>
+          </div>
+          <div class="storage-limit">
+            <span>0 GB</span>
+            <span>1000 GB</span>
+          </div>
+          <div class="space-left-tooltip">
+            <p class="space-left-tooltip__content">
+              <strong>185</strong><span> GB LEFT</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/rohitKumar38344"
+          >Rohit Kumar</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
